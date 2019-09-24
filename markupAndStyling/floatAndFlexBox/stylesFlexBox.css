@@ -1,0 +1,32 @@
+header {
+    background: greenyellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+li {
+    padding: 10px;    
+}
+
+.container_box_withFlexBox { 
+    display: flex;
+    flex-direction: row;
+} 
+.box_1_withFlexBox {
+    border: 2px solid #000;
+    width: 300px;
+    height: 300px;
+    background: rgb(250, 0, 0);
+    margin-right: 18px;
+}
+.paragraph {
+    width: 600px;
+}

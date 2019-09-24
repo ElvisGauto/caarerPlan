@@ -1,23 +1,27 @@
 header {
     background: #6e07c2;    
     color: #fff;
+    margin-bottom: 5px;
+}
+header div h1 {
+    margin: 0;
 }
 .main {
     background: #f2f2f2;
 }
-
 .color1 {
     background: #34495e;
     color: #fff;
 }
-
 aside {
     background: #c0392b;
     color: #fff;
 }
-
 footer {
-    height: 60px;
+    margin-top: 20px;
     background: #16a085;
     color: #fff;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
 }

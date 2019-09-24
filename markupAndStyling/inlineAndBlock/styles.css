@@ -1,0 +1,33 @@
+body {
+    background: #e20202;
+}
+
+h1 {
+    font-size: 25px;
+    font-family: fantasy;
+}
+
+.box1-inline {
+    border: 2px solid violet;
+    display: inline;
+    margin: 10px;
+    color: #fff;
+}
+
+.box2-block {
+    width: 150px;
+    height: 150px;
+    border: 2px solid blue;
+    display: block;
+    margin: 10px;
+    color: #fff;
+}
+
+.box3-inlineBlock {
+    width: 150px;
+    height: 150px;
+    border: 2px solid green;
+    display: inline-block;
+    margin: 10px;
+    color: #fff;
+}
