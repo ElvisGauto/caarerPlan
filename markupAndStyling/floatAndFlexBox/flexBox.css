@@ -16,9 +16,14 @@ li {
     padding: 10px;    
 }
 
+h1 {
+    text-align: center;
+}
+
 .container_box_withFlexBox { 
     display: flex;
     flex-direction: row;
+    justify-content: center;
 } 
 .box_1_withFlexBox {
     border: 2px solid #000;
