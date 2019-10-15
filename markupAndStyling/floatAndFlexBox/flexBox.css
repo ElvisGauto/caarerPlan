@@ -35,3 +35,11 @@ h1 {
 .paragraph {
     width: 600px;
 }
+
+footer {
+    width: 100%;
+    background: greenyellow;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+}

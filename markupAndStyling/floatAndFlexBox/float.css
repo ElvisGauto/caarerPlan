@@ -1,20 +1,42 @@
 
 /* -------------------- Float --------------- */
 
-.container_box {
-    background: rgb(4, 177, 13);
+.container {
+    background: grey;
+    padding: 30px;
 }
-.box_1 {
-    border: 2px solid #000;
-    margin-right: 18px;
-    width: 300px;
-    height: 300px;
+
+header {
+    background: green;
+    width: 100%;
+}
+header h1 {
     float: left;
-    background: rgb(4, 177, 13);
 }
-.box_2 {
-    border: 2px solid #000;
-    width: 300px;
-    height: 300px;
+header nav {
+    float: right;
+    margin-right: 30px;
+}
+header nav ul li {
     display: inline-block;
+    padding: 0 10px;
+}
+
+section {
+    background: red;
+    width: 50%;
+    float: left;
+    clear: both;
+}
+
+aside {
+    background: blue;
+    width: 30%;
+    float: right;
+}
+
+footer {
+    background: orange;
+    height: 60px;
+    clear: both;
 }
