@@ -1,12 +1,12 @@
 $(document).ready(function(){
-    // $('#btn1').click(function(){
-    //     alert('Button Click');
-    // });
+    $('#btn2').click(function(){
+        alert('Button Click');
+    });
 
-    // $('#btn1').on('click', function(){
-    //     // $('.para1').hide();
-    //     $('.para1').toggle();
-    // });
+    $('#btn1').on('click', function(){
+        // $('.para1').hide();
+        $('.para1').toggle();
+    });
 
     // $('#btn2').on('click', function(){
     //     $('.para1').show();
@@ -39,15 +39,15 @@ $(document).ready(function(){
     //     $('.para1').toggle();
     // });
 
-    // $('input').focus(function(){
-    //     // $('input#name').css('background', 'pink');
-    //     $(this).css('background', 'pink');
-    // });
+    $('input').focus(function(){
+        // $('input#name').css('background', 'pink');
+        $(this).css('background', 'pink');
+    });
 
-    // $('input').blur(function(){
-    //     // $('input#name').css('background', 'pink');
-    //     $(this).css('background', 'white');
-    // });
+    $('input').blur(function(){
+        // $('input#name').css('background', 'pink');
+        $(this).css('background', 'white');
+    });
 
     // $('input').keyup(function(e) {
     //     console.log(e.target.value);
