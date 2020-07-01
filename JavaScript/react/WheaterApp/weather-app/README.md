@@ -298,3 +298,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
     }
   }
 }
+
+c87b76b064f29970a0c21e3b5bafe429
+
+http://api.openweathermap.org/data/2.5/weather?q=[LOCATION]&appid=[KEY]
