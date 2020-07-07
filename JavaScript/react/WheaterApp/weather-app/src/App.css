@@ -44,3 +44,9 @@
   height: 100vh;
   width: 100%;
 }
+
+.title {
+  text-align: center;
+  color: #fff;
+  padding: 15px 0;
+}
