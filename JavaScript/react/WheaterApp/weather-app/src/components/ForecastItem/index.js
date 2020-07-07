@@ -2,11 +2,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import WeatherData from './../WeatherLocation/WeatherData';
+import './style.scss';
 
 const ForecastItem = ({ weekDay, hour, data }) => {
     return (
-        <div>
-            <div>{weekDay} Hora: {hour} hs</div>
+        <div className="forecastItemCont">
+            <div className="forecastItemCont__title">
+               <h3>{weekDay} Hora: {hour} hs</h3> 
+            </div>
             <WeatherData data={data}></WeatherData>
         </div>
     );
